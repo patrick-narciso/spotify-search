@@ -777,6 +777,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
+"@ngard/tiny-get@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ngard/tiny-get/-/tiny-get-1.0.1.tgz#ecab40b56b0a780fab2e0b5102c38ef21ce6c60d"
+  integrity sha512-HYLktEWzk70CQXA+AI4d/8zJGDBcTFgQhPI8PpkJg3HG+6pBlpQ6BIdEU3jr5x1JpQecIV6tcsmXkUEUAYgkjw==
+
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -2282,6 +2287,14 @@ des.js@^1.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
 
+design-system-utils@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/design-system-utils/-/design-system-utils-1.5.0.tgz#c2699aa31c4a2b752f8edf98ae0118b82c72653d"
+  integrity sha512-L/ERBzMJHV0uH9+Q8xzowqaqJEp23p7a2pUhpOYA7zNV9TmD7Q7AzW2+/8QA0mP8deVQHcJdSse0bbalzt8tyQ==
+  dependencies:
+    "@ngard/tiny-get" "^1.0.1"
+    dset "^2.0.1"
+
 destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
@@ -2410,6 +2423,11 @@ domutils@^1.5.1:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
+
+dset@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/dset/-/dset-2.0.1.tgz#a15fff3d1e4d60ac0c95634625cbd5441a76deb1"
+  integrity sha512-nI29OZMRYq36hOcifB6HTjajNAAiBKSXsyWZrq+VniusseuP2OpNlTiYgsaNRSGvpyq5Wjbc2gQLyBdTyWqhnQ==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
