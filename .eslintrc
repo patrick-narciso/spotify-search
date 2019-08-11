@@ -46,7 +46,9 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/style-prop-object": "off",
     "react/jsx-closing-bracket": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "arrow-parens": "off",
+    "object-curly-newline": "off"
   },
   "plugins": ["react", "prettier", "react-hooks"],
   "extends": ["airbnb"]
