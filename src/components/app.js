@@ -1,5 +1,6 @@
 import React from 'react';
+import { Text } from './Uikit';
 
-const App = () => <div>Hello World!</div>;
+const App = () => <Text>Hello World!</Text>;
 
 export default App;
