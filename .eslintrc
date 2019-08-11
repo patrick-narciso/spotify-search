@@ -7,13 +7,6 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"]
-      }
-    }
-  },
   "rules": {
     "react/jsx-filename-extension": [
       1,
@@ -37,6 +30,7 @@
       }
     ],
     "sort-imports": "off",
+    "import/no-unresolved": 0,
     "react/prop-types": "off",
     "no-shadow": "off",
     "jsx-a11y/anchor-is-valid": "warn",
